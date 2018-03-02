@@ -38,7 +38,7 @@ export default class HTML extends React.Component {
           <link rel="shortcut icon" href={favicon} />
           {css}
         </head>
-        <body>
+        <body><div>Siemanko</div>
           <div
             id="___gatsby"
             dangerouslySetInnerHTML={{ __html: this.props.body }}
